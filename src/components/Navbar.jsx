@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-200 text-white p-4">
+    <nav className="bg-gray-700 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="logo">
           {urlLogo? <img src={urlLogo} alt="Logo" className="h-10 w-auto" /> : <p className="text-2xl font-bold">Mi Sitio Web</p>}

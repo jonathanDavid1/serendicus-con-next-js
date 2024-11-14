@@ -4,13 +4,14 @@ import '@splidejs/splide/css'; // Importa los estilos CSS de Splide
 
 const ImageSlider = ({ images }) => {
   return (
-    <div className="container mx-auto"> {/* Centers the carousel */}
+    <div className="container mx-auto w-3/4"> {/* Centers the carousel */}
       <Splide options={{
         perPage: 1, // Show only 1 image at a time
-        loop: true, // Enable infinite looping
+        loop: true, 
+        // Enable infinite looping
         // Add other Splide options if needed
       }}
-             className="carousel md:w-3/4 lg:w-1/2"> {/* Responsive width */}
+             className="carousel md:w-3/4 md:mx-auto lg:w-[600px] lg:mx-auto"> {/* Responsive width */}
         {images.map((image, index) => (
           <SplideSlide key={index}>
             <img
