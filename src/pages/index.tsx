@@ -1,115 +1,75 @@
-import Image from "next/image";
-import localFont from "next/font/local";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import Head from 'next/head';
+import Navbar from '../components/Navbar';
+import ImageSlider from '../components/ImageSlider';
 
-export default function Home() {
+const Home = () => {
+  const images = [
+    '/images/aji dulce 2.jpg',
+    '/images/aji dulce 3.jpg',
+    '/images/aji dulce 4.jpg',
+    '/images/aji dulce 5.jpg'
+  ];
   return (
-    <div
-      className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
-    >
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/pages/index.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <section className='bg-lightBlue text-black'>
+      <Head>
+        <title>Serendicus</title>
+        <meta name="description" content="Descripción de mi aplicación" />
+      </Head>
+      <Navbar />
+      <h2 className=' font-bold text-center mt-8 mb-10 text-lg'>Veredas Corozal y California</h2>
+      <ImageSlider images={images} />
+      <section>
+        <p>En el corazón del municipio de Los Patios, Norte de Santander, Colombia, se encuentra la Vereda California,
+          un
+          refugio de paz y belleza natural que invita a la aventura y la conexión con la tierra.</p>
+        <h2>Paisajes encantadores:</h2>
+        <p><b>Lagunas artificiales:</b> Disfruta de un paseo tranquilo o una emocionante excursión en bicicleta por las
+          riberas de las lagunas artificiales, admirando la flora y fauna local.</p>
+        <p><b>Campos de cultivo:</b> Déjate llevar por los vibrantes colores de los cultivos que se extienden por la
+          vereda, donde se producen maracuyá, tomates, pimentones, melones, ají dulce, lechosa, cebollas, yuca, mangos
+          y mucho más.</p>
+        <h2>Fauna diversa:</h2>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <p><b>Aves:</b>Observa la gran variedad de guacharacas, patos salvajes y otras aves que habitan cerca de las
+          lagunas y en los bosques circundantes.</p>
+        <p><b>Animales de granja: </b>Conoce las gallinas ponedoras, los pollos de engorde y el ganado que se crían en
+          la zona, tanto para carne como para producción de leche.
+
+        </p>
+        <p><b>Animales exóticos:</b>Descubre la presencia de cabras camuras y cerdos, que añaden un toque único al
+          paisaje de la vereda.
+
+        </p>
+
+        <h2>Un espectáculo de color:</h2>
+        <p><b>Cañaguates en flor:</b>Déjate sorprender por la explosión de color amarillo que invade la vereda en
+          ciertas temporadas, cuando los cañaguates florecen en todo su esplendor.
+
+        </p>
+
+        <p><b>Chulos:</b>Observa la gran cantidad de chulos que habitan en una zona específica de la vereda,
+          convirtiéndola en un punto de partida importante para estas aves que se dirigen a Cúcuta y sus alrededores.
+
+        </p>
+        <h2>La Vereda California es un lugar ideal para:</h2>
+        <p><b>Amantes de la naturaleza: </b>Disfrutar de caminatas, paseos en bicicleta, observación de aves y conexión
+          con el entorno natural.
+        </p>
+        <p><b>Familias:</b>Experimentar un ambiente tranquilo y seguro, perfecto para disfrutar en familia.
+        </p>
+        <p><b>Emprendedores:</b>Explorar oportunidades de negocio en el sector agropecuario o ecoturismo.</p>
+
+        <h3>Ven a descubrir la Vereda California y déjate cautivar por su encanto natural, su riqueza cultural y su
+          gente amable.</h3><br />
+        <h3>¡Te esperamos!</h3>
+
+
+      </section>
+
+
+    </section>
   );
-}
+};
+
+export default Home;
