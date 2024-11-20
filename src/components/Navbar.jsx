@@ -40,8 +40,8 @@ const Navbar = () => {
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-12 left-0 w-full bg-gray-800`}>
-          <ul className="flex flex-col space-y-4">
+        <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full h-screen duration-300 ease-in-out bg-gray-800 z-40`}>
+          <ul className="flex flex-col space-y-4 p-6">
             <li>
               <Link href="/">Inicio</Link>
             </li>
