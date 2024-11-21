@@ -7,7 +7,7 @@ const WhatsAppButton = () => {
       target="_blank"
       className="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full"
     >
-      <img src="/public/WhatsAppIcon.png" alt="WhatsApp" className="h-6 w-6" />
+      <img src="/WhatsAppIcon.png" alt="WhatsApp" className="h-6 w-6" />
     </a>
   );
 };
