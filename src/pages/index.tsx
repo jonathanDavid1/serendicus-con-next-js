@@ -2,7 +2,8 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import ImageSlider from '../components/ImageSlider';
-
+import Footer from '../components/Footer'
+import WhatsAppIcon from '../components/WhatsAppIcon'
 const Home = () => {
   const images = [
     '/images/aji dulce 2.jpg',
@@ -65,9 +66,12 @@ const Home = () => {
         <h3>Ven a descubrir la Vereda California y déjate cautivar por su encanto natural, su riqueza cultural y su
           gente amable.</h3><br />
         <h3>¡Te esperamos!</h3>
+        
 
 
       </section>
+      <Footer/>
+      <WhatsAppIcon/>
 
 
     </section>
