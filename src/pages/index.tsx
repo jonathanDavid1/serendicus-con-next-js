@@ -20,7 +20,7 @@ const Home = () => {
       <Navbar />
       <h2 className=' font-bold text-center mt-8 mb-10 text-lg'>Veredas Corozal y California</h2>
        <div className='grid'>
-        <ImageSlider images={images} />
+        <ImageSlider/>
         </div>
       <section className='mt-10 mr-10 ml-10'>
         <p>En el corazón del municipio de Los Patios, Norte de Santander, Colombia, se encuentra la Vereda California,

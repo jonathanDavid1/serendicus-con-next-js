@@ -1,15 +1,20 @@
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css'; // Importa los estilos CSS de Splide
+import data from '../utils/data.json'
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = () => {
+  const imagesOptions = [32,56,61,77]
+  const nuevoArreglo = imagesOptions.map(numero => numero - 1);
+  const images = nuevoArreglo.map(index => data[index].image);
+  
+  
   return (
     <div className="container mx-auto w-3/4"> {/* Centers the carousel */}
       <Splide options={{
-        perPage: 1, // Show only 1 image at a time
+        perPage: 1, 
         loop: true, 
-        // Enable infinite looping
-        // Add other Splide options if needed
+        
       }}
              className="carousel md:w-3/4 md:mx-auto lg:w-[600px] lg:mx-auto"> {/* Responsive width */}
         {images.map((image, index) => (
@@ -19,6 +24,7 @@ const ImageSlider = ({ images }) => {
               alt={`Imagen ${index}`}
               className="w-full h-64 object-cover rounded-lg" // Image styles
             />
+           
           </SplideSlide>
         ))}
       </Splide>
