@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import data from '../utils/data.json';
 import Navbar from '../components/Navbar';
 import PropertyDetail from '../components/PropertyDetail';
+import Footer from '../components/Footer';
 
 function PropertyDetailPage() {
   const router = useRouter();
@@ -17,6 +18,7 @@ function PropertyDetailPage() {
     <>
     <Navbar/>
     <PropertyDetail property ={property}/>
+    <Footer/>
     </>
   );
 }

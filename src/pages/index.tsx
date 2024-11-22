@@ -5,12 +5,7 @@ import ImageSlider from '../components/ImageSlider';
 import Footer from '../components/Footer'
 import WhatsAppIcon from '../components/WhatsAppIcon'
 const Home = () => {
-  const images = [
-    '/images/aji dulce 2.jpg',
-    '/images/aji dulce 3.jpg',
-    '/images/aji dulce 4.jpg',
-    '/images/aji dulce 5.jpg'
-  ];
+  
   return (
     <section className='bg-lightBlue text-black mx-auto grid'>
       <Head>
@@ -18,8 +13,8 @@ const Home = () => {
         <meta name="description" content="Descripción de mi aplicación" />
       </Head>
       <Navbar />
-      <h2 className=' font-bold text-center mt-8 mb-10 text-lg'>Veredas Corozal y California</h2>
-       <div className='grid'>
+      <h2 className=' font-bold text-center mt-8 mb-10 text-lg'>Corozal y California lugares hermosos conectados con la naturaleza y el bienestar</h2>
+       <div >
         <ImageSlider/>
         </div>
       <section className='mt-10 mr-10 ml-10'>

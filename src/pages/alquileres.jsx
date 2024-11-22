@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import PropertyCard from "../components/PropertyCard"
 
@@ -56,6 +57,7 @@ const alquileres = () => {
           <PropertyCard key={property.id} property={property} />
         ))}
       </div>
+      <Footer/>
     </>
   )
 }

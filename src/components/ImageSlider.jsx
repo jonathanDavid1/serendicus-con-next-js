@@ -4,7 +4,11 @@ import '@splidejs/splide/css'; // Importa los estilos CSS de Splide
 import data from '../utils/data.json'
 
 const ImageSlider = () => {
-  const imagesOptions = [32,56,61,77]
+
+
+  const imagesOptions = [56,61,71,77]
+
+
   const nuevoArreglo = imagesOptions.map(numero => numero - 1);
   const images = nuevoArreglo.map(index => data[index].image);
   
@@ -14,6 +18,10 @@ const ImageSlider = () => {
       <Splide options={{
         perPage: 1, 
         loop: true, 
+        autoplay: true,
+        interval: 2500,
+        speed: 500,
+        type: 'fade'
         
       }}
              className="carousel md:w-3/4 md:mx-auto lg:w-[600px] lg:mx-auto"> {/* Responsive width */}
@@ -22,7 +30,7 @@ const ImageSlider = () => {
             <img
               src={image}
               alt={`Imagen ${index}`}
-              className="w-full h-64 object-cover rounded-lg" // Image styles
+              className=" object-cover rounded-lg" // Image styles
             />
            
           </SplideSlide>

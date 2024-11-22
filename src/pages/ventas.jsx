@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import PropertyCard from "../components/PropertyCard";
 import data from '../utils/data.json';
-
+import Footer from "../components/Footer";
 
 const ventas = () => {
 
@@ -15,6 +15,7 @@ const ventas = () => {
           <PropertyCard key={property.id} property={property} />
         ))}
       </div>
+      <Footer/>
       
     </>
   );

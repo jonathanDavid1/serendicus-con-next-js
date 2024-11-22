@@ -6,6 +6,7 @@ const PropertyCard = ({ property }) => {
   const { id, title, price, image, description } = property;
 
   return (
+    <>
     <div className="max-w-xs mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
       <Link href={`/${id}`}>
         
@@ -30,6 +31,7 @@ const PropertyCard = ({ property }) => {
         <p className="mt-2 text-gray-500 dark:text-gray-400">{description}</p>
       </div>
     </div>
+    </>
   );
 };
 
