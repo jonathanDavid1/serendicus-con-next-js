@@ -1,10 +1,11 @@
 [
     {
       "id": 1,
-      "title": "Casa en el centro",
-      "price": 250000,
-      "image": "/images/1.jpg",
-      "description": "Amplia casa en el centro."
+      "title": "Casa en California",
+      "price": 250000000,
+      "image": "/images/89.jpg",
+      "video": "/videos/1.mp4",
+      "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
     },
     {
       "id": 2,
