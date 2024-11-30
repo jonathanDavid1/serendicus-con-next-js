@@ -1,16 +1,12 @@
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css'; // Importa los estilos CSS de Splide
-import data from '../utils/data.json'
+import lugares from '../utils/lugares.json'
 
 const ImageSlider = () => {
 
 
-  const imagesOptions = [56,61,71,77]
-
-
-  const nuevoArreglo = imagesOptions.map(numero => numero - 1);
-  const images = nuevoArreglo.map(index => data[index].image);
+  const images = lugares.map(lugar => lugar.image);
   
   
   return (

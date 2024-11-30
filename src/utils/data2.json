@@ -1,0 +1,702 @@
+[
+    {
+      "id": 1,
+      "price": 250000000,
+      "image": "/images/89.jpg",
+      "video": "https://youtu.be/RAlKiQOfNTg",
+      "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+    },
+    {
+      "id": 2,
+      "title": "2",
+      "price": 250000,
+      "image": "/images/2.jpg",
+      "description": "Amplia casa  de la ciudad."
+    },
+    {
+      "id": 3,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/3.jpg",
+      "description": " centro de la ciudad."
+    },
+    {
+      "id": 4,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/4.jpg",
+      "description": "Ampl."
+    },
+    {
+      "id": 5,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/5.jpg",
+      "description": "Amplia casa en el centro de la ciudad."
+    },
+    {
+      "id": 6,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/6.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 7,
+      "title": "2",
+      "price": 250000,
+      "image": "/images/7.jpg",
+      "description": "Amplia casa  de la ciudad."
+    },
+    {
+      "id": 8,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/8.jpg",
+      "description": " centro de la ciudad."
+    },
+    {
+      "id": 9,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/9.jpg",
+      "description": "Ampl."
+    },
+    {
+      "id": 10,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/10.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 11,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/11.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 12,
+      "title": "12",
+      "price": 250000,
+      "image": "/images/12.jpg",
+      "description": "Amplia casa  de la ciudad."
+    },
+    {
+      "id": 13,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/13.jpg",
+      "description": " centro de la ciudad."
+    },
+    {
+      "id": 14,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/14.jpg",
+      "description": "Ampl."
+    },
+    {
+      "id": 15,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/15.jpg",
+      "description": "Amplia casa en el centro de la ciudad."
+    },
+    {
+      "id": 16,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/16.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 17,
+      "title": "2",
+      "price": 250000,
+      "image": "/images/17.jpg",
+      "description": "Amplia casa  de la ciudad."
+    },
+    {
+      "id": 18,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/18.jpg",
+      "description": " centro de la ciudad."
+    },
+    {
+      "id": 19,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/19.jpg",
+      "description": "Ampl."
+    },
+    {
+      "id": 20,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/20.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 21,
+      "title": "21",
+      "price": 250000,
+      "image": "/images/21.jpg",
+      "description": "Amplia casa  de la ciudad."
+    },
+    {
+      "id": 22,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/22.jpg",
+      "description": " centro de la ciudad."
+    },
+    {
+      "id": 23,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/23.jpg",
+      "description": "Ampl."
+    },
+    {
+      "id": 24,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/24.jpg",
+      "description": "Amplia casa en el centro de la ciudad."
+    },
+    {
+      "id": 25,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/25.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 26,
+      "title": "2",
+      "price": 250000,
+      "image": "/images/26.jpg",
+      "description": "Amplia casa  de la ciudad."
+    },
+    {
+      "id": 27,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/27.jpg",
+      "description": " centro de la ciudad."
+    },
+    {
+      "id": 28,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/28.jpg",
+      "description": "Ampl."
+    },
+    {
+      "id": 29,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/29.jpg",
+      "description": "Amplia casa en el centro."
+    },
+    {
+      "id": 30,
+      "title": "Casa en el centro",
+      "price": 250000,
+      "image": "/images/30.jpg",
+      "description": "Amplia casa en el centro."
+    },
+      {
+        "id": 31,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/31.jpg",
+        "description": "Amplia casa en el centro."
+      },
+      {
+        "id": 32,
+        "title": "2",
+        "price": 250000,
+        "image": "/images/32.jpg",
+        "description": "Amplia casa  de la ciudad."
+      },
+      {
+        "id": 33,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/33.jpg",
+        "description": " centro de la ciudad."
+      },
+      {
+        "id": 34,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/34.jpg",
+        "description": "Ampl."
+      },
+      {
+        "id": 35,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/35.jpg",
+        "description": "Amplia casa en el centro de la ciudad."
+      },
+      {
+        "id": 36,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/36.jpg",
+        "description": "Amplia casa en el centro."
+      },
+      {
+        "id": 37,
+        "title": "2",
+        "price": 250000,
+        "image": "/images/37.jpg",
+        "description": "Amplia casa  de la ciudad."
+      },
+      {
+        "id": 38,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/38.jpg",
+        "description": " centro de la ciudad."
+      },
+      {
+        "id": 39,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/39.jpg",
+        "description": "Ampl."
+      },
+      {
+        "id": 40,
+        "title": "Casa en el centro",
+        "price": 250000,
+        "image": "/images/40.jpg",
+        "description": "Amplia casa en el centro."
+      },
+        {
+          "id": 41,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/41.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 42,
+          "title": "2",
+          "price": 250000,
+          "image": "/images/42.jpg",
+          "description": "Amplia casa  de la ciudad."
+        },
+        {
+          "id": 43,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/43.jpg",
+          "description": " centro de la ciudad."
+        },
+        {
+          "id": 44,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/44.jpg",
+          "description": "Ampl."
+        },
+        {
+          "id": 45,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/45.jpg",
+          "description": "Amplia casa en el centro de la ciudad."
+        },
+        {
+          "id": 46,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/46.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 47,
+          "title": "2",
+          "price": 250000,
+          "image": "/images/47.jpg",
+          "description": "Amplia casa  de la ciudad."
+        },
+        {
+          "id": 48,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/48.jpg",
+          "description": " centro de la ciudad."
+        },
+        {
+          "id": 49,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/49.jpg",
+          "description": "Ampl."
+        },
+        {
+          "id": 50,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/50.jpg",
+          "description": "Amplia casa en el centro."
+        },{
+          "id": 51,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/51.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 52,
+          "title": "2",
+          "price": 250000,
+          "image": "/images/52.jpg",
+          "description": "Amplia casa  de la ciudad."
+        },
+        {
+          "id": 53,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/53.jpg",
+          "description": " centro de la ciudad."
+        },
+        {
+          "id": 54,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/54.jpg",
+          "description": "Ampl."
+        },
+        {
+          "id": 55,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/55.jpg",
+          "description": "Amplia casa en el centro de la ciudad."
+        },
+        {
+          "id": 56,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/56.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 57,
+          "title": "2",
+          "price": 250000,
+          "image": "/images/57.jpg",
+          "description": "Amplia casa  de la ciudad."
+        },
+        {
+          "id": 58,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/58.jpg",
+          "description": " centro de la ciudad."
+        },
+        {
+          "id": 59,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/59.jpg",
+          "description": "Ampl."
+        },
+        {
+          "id": 60,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/60.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 61,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/61.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 62,
+          "title": "2",
+          "price": 250000,
+          "image": "/images/62.jpg",
+          "description": "Amplia casa  de la ciudad."
+        },
+        {
+          "id": 63,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/63.jpg",
+          "description": " centro de la ciudad."
+        },
+        {
+          "id": 64,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/64.jpg",
+          "description": "Ampl."
+        },
+        {
+          "id": 65,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/65.jpg",
+          "description": "Amplia casa en el centro de la ciudad."
+        },
+        {
+          "id": 66,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/66.jpg",
+          "description": "Amplia casa en el centro."
+        },
+        {
+          "id": 67,
+          "title": "2",
+          "price": 250000,
+          "image": "/images/67.jpg",
+          "description": "Amplia casa  de la ciudad."
+        },
+        {
+          "id": 68,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/68.jpg",
+          "description": " centro de la ciudad."
+        },
+        {
+          "id": 69,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/69.jpg",
+          "description": "Ampl."
+        },
+        {
+          "id": 70,
+          "title": "Casa en el centro",
+          "price": 250000,
+          "image": "/images/70.jpg",
+          "description": "Amplia casa en el centro."
+        },
+          {
+            "id": 71,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/71.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 72,
+            "title": "2",
+            "price": 250000,
+            "image": "/images/72.jpg",
+            "description": "Amplia casa  de la ciudad."
+          },
+          {
+            "id": 73,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/73.jpg",
+            "description": " centro de la ciudad."
+          },
+          {
+            "id": 74,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/74.jpg",
+            "description": "Ampl."
+          },
+          {
+            "id": 75,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/75.jpg",
+            "description": "Amplia casa en el centro de la ciudad."
+          },
+          {
+            "id": 76,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/76.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 77,
+            "title": "2",
+            "price": 250000,
+            "image": "/images/77.jpg",
+            "description": "Amplia casa  de la ciudad."
+          },
+          {
+            "id": 78,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/78.jpg",
+            "description": " centro de la ciudad."
+          },
+          {
+            "id": 79,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/79.jpg",
+            "description": "Ampl."
+          },
+          {
+            "id": 80,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/80.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 81,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/81.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 82,
+            "title": "2",
+            "price": 250000,
+            "image": "/images/82.jpg",
+            "description": "Amplia casa  de la ciudad."
+          },
+          {
+            "id": 83,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/83.jpg",
+            "description": " centro de la ciudad."
+          },
+          {
+            "id": 84,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/84.jpg",
+            "description": "Ampl."
+          },
+          {
+            "id": 85,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/85.jpg",
+            "description": "Amplia casa en el centro de la ciudad."
+          },
+          {
+            "id": 86,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/86.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 87,
+            "title": "2",
+            "price": 250000,
+            "image": "/images/87.jpg",
+            "description": "Amplia casa  de la ciudad."
+          },
+          {
+            "id": 88,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/88.jpg",
+            "description": " centro de la ciudad."
+          },
+          {
+            "id": 89,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/89.jpg",
+            "description": "Ampl."
+          },
+          {
+            "id": 90,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/90.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 91,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/91.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 92,
+            "title": "2",
+            "price": 250000,
+            "image": "/images/92.jpg",
+            "description": "Amplia casa  de la ciudad."
+          },
+          {
+            "id": 93,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/93.jpg",
+            "description": " centro de la ciudad."
+          },
+          {
+            "id": 94,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/94.jpg",
+            "description": "Ampl."
+          },
+          {
+            "id": 95,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/95.jpg",
+            "description": "Amplia casa en el centro de la ciudad."
+          },
+          {
+            "id": 96,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/96.jpg",
+            "description": "Amplia casa en el centro."
+          },
+          {
+            "id": 97,
+            "title": "2",
+            "price": 250000,
+            "image": "/images/97.jpg",
+            "description": "Amplia casa  de la ciudad."
+          },
+          {
+            "id": 98,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/98.jpg",
+            "description": " centro de la ciudad."
+          },
+          {
+            "id": 99,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/99.jpg",
+            "description": "Ampl."
+          },
+          {
+            "id": 100,
+            "title": "Casa en el centro",
+            "price": 250000,
+            "image": "/images/100.jpg",
+            "description": "Amplia casa en el centro."
+          } 
+      
+  ]

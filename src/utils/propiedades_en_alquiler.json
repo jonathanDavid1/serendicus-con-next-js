@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "price": 250000000,
+      "image": "/Lugares/Images/43.jpg",
+      "video": "https://youtu.be/RAlKiQOfNTg",
+      "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+    },
+    {
+        "id": 2,
+        "price": 250000000,
+        "image": "/Lugares/Images/47.jpg",
+        "video": "https://youtu.be/RAlKiQOfNTg",
+        "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+      },
+      {
+        "id": 3,
+        "price": 250000000,
+        "image": "/Lugares/Images/48.jpg",
+        "video": "https://youtu.be/RAlKiQOfNTg",
+        "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+      },
+      {
+        "id": 4,
+        "price": 250000000,
+        "image": "/Lugares/Images/72.jpg",
+        "video": "https://youtu.be/RAlKiQOfNTg",
+        "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+      },
+      {
+        "id": 5,
+        "price": 250000000,
+        "image": "/Lugares/Images/78.jpg",
+        "video": "https://youtu.be/RAlKiQOfNTg",
+        "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+      },
+      {
+        "id": 6,
+        "price": 250000000,
+        "image": "/Lugares/Images/79.jpg",
+        "video": "https://youtu.be/RAlKiQOfNTg",
+        "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+      },
+      {
+        "id": 7,
+        "price": 250000000,
+        "image": "/Lugares/Images/41.jpg",
+        "video": "https://youtu.be/RAlKiQOfNTg",
+        "description": "Casa ubicada en en la vereda california, con escrituras pagos de impuesto al dia y con topografia."
+      }
+
+]

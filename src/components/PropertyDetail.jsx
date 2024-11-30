@@ -1,3 +1,4 @@
+import BottonMap from "./BottonMap"
 import WhatsAppIcon from "./WhatsAppIcon"
 const PropertyDetail = ({property}) => {
   return (
@@ -12,6 +13,7 @@ const PropertyDetail = ({property}) => {
     <div className="relative w-full h-72 mb-8">
     <iframe className="w-full h-full"  src= "https://www.youtube.com/embed/RAlKiQOfNTg?si=U3_5Zmj2AJQghjVG?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+    <BottonMap lat={property.lat} lng={property.lng}/>
     <WhatsAppIcon/>
   </div>
   )

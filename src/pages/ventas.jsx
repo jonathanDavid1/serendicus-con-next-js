@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import PropertyCard from "../components/PropertyCard";
-import data from '../utils/data.json';
+import propiedades_en_venta from '../utils/propiedades_en_venta.json';
 import Footer from "../components/Footer";
 
 const ventas = () => {
@@ -11,7 +11,7 @@ const ventas = () => {
       <Navbar/>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-20">
-        {data.map((property) => (
+        {propiedades_en_venta.map((property) => (
           <PropertyCard key={property.id} property={property} />
         ))}
       </div>
