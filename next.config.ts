@@ -1,15 +1,8 @@
-// next.config.ts
-import { NextConfig } from 'next';
-import path from 'path';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  webpack: (config) => {
-    config.resolve.alias = {
-      '@components': path.resolve(__dirname, 'components'),
-      '@src': path.resolve(__dirname, 'src'),
-    };
-    return config;
-  },
+  /* config options here */
+  reactStrictMode: true,
 };
 
 export default nextConfig;
