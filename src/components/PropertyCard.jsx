@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const PropertyCard = ({ property }) => {
-  const { id, title, price, image, description } = property;
+  const { id, title, price, images, description } = property;
 
   return (
     <>
@@ -11,7 +11,7 @@ const PropertyCard = ({ property }) => {
       <Link href={`/ventas/${id}`}>
         
           <Image
-            src={image}
+            src={images[1]}
             alt={title}
             width={300}
             height={200}
