@@ -5,12 +5,13 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const urlLogo = "/logo.png";
+  const facebookIcon = "/facebookIcon.png"
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <nav className="bg-gray-700 text-white p-4">
+    <nav className="bg-gray-700 text-white p-4 fixed top-0 w-screen z-30">
       <div className="container mx-auto flex justify-between items-center">
         <div className="logo">
           {urlLogo? <img src={urlLogo} alt="Logo" className="h-10 w-auto" /> : <p className="text-2xl font-bold">Mi Sitio Web</p>}
@@ -61,6 +62,26 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <div
+  className={`md:hidden fixed bottom-0 right-0 p-4 z-50 transition-all duration-300 ease-in-out ${
+    isMenuOpen ? 'block' : 'hidden'
+  }`}
+>
+  <ul className="flex flex-col space-y-4 p-6">
+    {/* ... otros enlaces ... */}
+    <li className="mt-4">
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-2 text-white"
+      >
+        <img src={facebookIcon} alt="Facebook" className="h-8 w-8" />
+        <span>Serendicus</span>
+      </a>
+    </li>
+  </ul>
+</div>
     </nav>
   );
 };

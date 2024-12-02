@@ -7,13 +7,13 @@ import WhatsAppIcon from '../components/WhatsAppIcon'
 const Home = () => {
   
   return (
-    <section className='bg-lightBlue text-black mx-auto grid'>
+    <section className='bg-lightBlue text-black mx-auto grid mt-10'>
       <Head>
-        <title>Serendicus</title>
+        <title >Serendicus</title>
         <meta name="description" content="Descripción de mi aplicación" />
       </Head>
       <Navbar />
-      <h2 className=' font-bold text-center mt-8 mb-10 text-lg'>Corozal y California lugares hermosos conectados con la naturaleza y el bienestar</h2>
+      <h2 className=' font-bold text-center mt-14 mb-10 text-lg'>Corozal y California lugares hermosos conectados con la naturaleza y el bienestar</h2>
        <div >
         <ImageSlider/>
         </div>
