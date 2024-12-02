@@ -7,6 +7,29 @@
       "description": "Se vende lote de 400 m² (10m x 40m) en la Vereda California, ubicado a tan solo 3 km del peaje de Corozal y cerca de la escuelita de California. El lote cuenta con derecho al agua y todas sus escrituras están al día. ¡Una excelente oportunidad para construir tu hogar soñado por tan solo $80.000.000!",
       "lat": 7.701417,
       "lng": -72.5694
+    },
+    {
+      "id": 2,
+      "price": 280000000,
+      "images":["/Propiedades en venta/Lote Maye Corozal/1.jpg","/Propiedades en venta/Lote Maye Corozal/2.jpg","/Propiedades en venta/Lote Maye Corozal/3.png" ],
+      "videos": ["https://www.youtube.com/embed/0BS17ZRS9c4?si=ZrSotTtAAQdmON4n","https://www.youtube.com/embed/X64n1Gns3d4?si=ouA7Ibo_BMeZF7QE"],
+      "description": "Se vende lote en corozal de 1400m², con todos los impuestos al dia, con topografia y escritura lista para la venta por tant solo $280000000!",
+      "lat": 7.73225,
+      "lng": -72.5621
     }
+    ,
+    {
+      "id": 3,
+      "price": 270000000,
+      "images":["/Propiedades en venta/Lote Gabriel/1.jpg","/Propiedades en venta/Lote Gabriel/2.jpg","/Propiedades en venta/Lote Gabriel/3.jpg" ,"/Propiedades en venta/Lote Gabriel/4.jpg"],
+      "videos": ["https://www.youtube.com/embed/IqnE3fBInOg?si=cvs4cuMANcEPvUHg"],
+      "description": "Se vende lote en la vereda california con excelente vista y en gran contacto con la naturalez a tan solo $270000000!",
+      "lat": 7.706693,
+      "lng": -72.574652
+
+    }
+    
+
+
 
 ]

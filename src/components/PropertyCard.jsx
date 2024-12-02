@@ -26,7 +26,7 @@ const PropertyCard = ({ property }) => {
           
         </Link>
         <div className="flex justify-between items-center">
-          <span className="text-gray-700 dark:text-gray-400">{price}</span>
+          <span className="text-gray-700 dark:text-gray-400">Precio: ${property.price.toLocaleString('es-ES', { style: 'currency', currency: 'COP' })}</span>
         </div>
         <p className="mt-2 text-gray-500 dark:text-gray-400">{description}</p>
       </div>
