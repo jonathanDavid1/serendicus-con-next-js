@@ -2,10 +2,10 @@
     {
       "id": 1,
       "price": 80000000,
-      "images":["/Propiedades en venta/Lote matilde/1.jpg","/Propiedades en venta/Lote matilde/2.jpg","/Propiedades en venta/Lote matilde/3.jpg"],
-      "video": "https://youtu.be/RAlKiQOfNTg",
+      "images":["/Propiedades en venta/Lote matilde/1.jpg","/Propiedades en venta/Lote matilde/2.jpg","/Propiedades en venta/Lote matilde/3.jpg","/Propiedades en venta/Lote matilde/4.jpg"],
+      "videos": ["https://www.youtube.com/embed/9mz_LOcu82g?si=8lBIhvy3FIUA1sxR"],
       "description": "Se vende lote de 400 m² (10m x 40m) en la Vereda California, ubicado a tan solo 3 km del peaje de Corozal y cerca de la escuelita de California. El lote cuenta con derecho al agua y todas sus escrituras están al día. ¡Una excelente oportunidad para construir tu hogar soñado por tan solo $80.000.000!",
-      "lat": 7.701417,
+      "lat": 7.701414,
       "lng": -72.5694
     },
     {
