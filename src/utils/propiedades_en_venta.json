@@ -13,7 +13,7 @@
       "price": 280000000,
       "images":["/Propiedades en venta/Lote Maye Corozal/1.jpg","/Propiedades en venta/Lote Maye Corozal/2.jpg","/Propiedades en venta/Lote Maye Corozal/3.png" ],
       "videos": ["https://www.youtube.com/embed/0BS17ZRS9c4?si=ZrSotTtAAQdmON4n","https://www.youtube.com/embed/X64n1Gns3d4?si=ouA7Ibo_BMeZF7QE"],
-      "description": "Se vende lote en corozal de 1400m², con todos los impuestos al dia, con topografia y escritura lista para la venta por tant solo $280000000!",
+      "description": "Se vende lote en corozal de 1400m², con todos los impuestos al dia, con topografia y escritura lista para la venta por tant solo $280.000.000!",
       "lat": 7.73225,
       "lng": -72.5621
     }
@@ -26,6 +26,16 @@
       "description": "Se vende lote en la vereda california con excelente vista y en gran contacto con la naturalez a tan solo $270000000!",
       "lat": 7.706693,
       "lng": -72.574652
+
+    },
+    {
+      "id": 4,
+      "price": 500000000,
+      "images":["/Propiedades en venta/Lotes Medina/1.jpg","/Propiedades en venta/Lotes Medina/2.jpg"],
+      "videos": ["https://www.youtube.com/embed/IBlEcFNHHXU?si=8dmETU-3asW-ioLc"],
+      "description": "Se vende lote de 4000 m² en la vereda California del municipio de los patios con hermosa vista hacia la laguna la Y a tan solo $500.000.000!",
+      "lat": 7.707241,
+      "lng": -72.575044
 
     }
     
