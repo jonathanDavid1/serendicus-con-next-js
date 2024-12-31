@@ -1,37 +1,84 @@
-import React from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/splide/css'; // Importa los estilos CSS de Splide
-import lugares from '../utils/lugares.json'
+import { useState, useEffect, useRef } from 'react';
 
-const ImageSlider = () => {
+const ImageSlider = ({ images }) => {
+  const [current, setCurrent] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+  const sliderRef = useRef();
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    }, 3000); // Change image every 3 seconds
 
-  const images = lugares.map(lugar => lugar.image);
-  
-  
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+  useEffect(() => {
+    const handleTouchStart = (e) => {
+      setTouchStart(e.targetTouches[0].clientX);
+    };
+
+    const handleTouchMove = (e) => {
+      setTouchEnd(e.targetTouches[0].clientX);
+    };
+
+    const handleTouchEnd = () => {
+      if (touchStart - touchEnd > 50) {
+        nextSlide();
+      }
+
+      if (touchStart - touchEnd < -50) {
+        prevSlide();
+      }
+
+      setTouchStart(null);
+      setTouchEnd(null);
+    };
+
+    const slider = sliderRef.current;
+    slider.addEventListener('touchstart', handleTouchStart);
+    slider.addEventListener('touchmove', handleTouchMove);
+    slider.addEventListener('touchend', handleTouchEnd);
+
+    return () => {
+      slider.removeEventListener('touchstart', handleTouchStart);
+      slider.removeEventListener('touchmove', handleTouchMove);
+      slider.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [touchStart, touchEnd]);
+
+  const nextSlide = () => {
+    setCurrent(current === images.length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? images.length - 1 : current - 1);
+  };
+
   return (
-    <div className="container mx-auto w-3/4"> {/* Centers the carousel */}
-      <Splide options={{
-        perPage: 1, 
-        loop: true, 
-        autoplay: true,
-        interval: 2500,
-        speed: 500,
-        type: 'fade'
-        
-      }}
-             className="carousel md:w-3/4 md:mx-auto lg:w-[600px] lg:mx-auto"> {/* Responsive width */}
-        {images.map((image, index) => (
-          <SplideSlide key={index}>
-            <img
-              src={image}
-              alt={`Imagen ${index}`}
-              className=" object-cover rounded-lg" // Image styles
-            />
-           
-          </SplideSlide>
-        ))}
-      </Splide>
+    <div ref={sliderRef} className="relative">
+      {images.map((image, index) => (
+        <div key={index} className={index === current ? 'block' : 'hidden'}>
+          <img 
+            src={image} 
+            alt={`Slide ${index}`} 
+            className="w-full md:w-1/2 lg:w-1/3 mx-auto px-4 md:px-0" 
+          />
+        </div>
+      ))}
+      <button 
+        onClick={prevSlide} 
+        className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2 p-3 bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-800 focus:outline-none"
+      >
+        &lt;
+      </button>
+      <button 
+        onClick={nextSlide} 
+        className="hidden md:block absolute top-1/2 right-2 transform -translate-y-1/2 p-3 bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-800 focus:outline-none"
+      >
+        &gt;
+      </button>
     </div>
   );
 };
