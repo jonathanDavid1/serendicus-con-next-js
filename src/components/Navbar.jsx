@@ -6,6 +6,8 @@ const Navbar = () => {
 
   const urlLogo = "/logo.png";
   const facebookIcon = "/facebookIcon.png"
+  const instagramIcon = "/instagramIcon.png"
+  const tiktokIcon = "/tiktokIcon.png"
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -67,19 +69,39 @@ const Navbar = () => {
     isMenuOpen ? 'block' : 'hidden'
   }`}
 >
-  <ul className="flex flex-col space-y-4 p-6">
+  <ul className="flex space-y-4 p-6">
     {/* ... otros enlaces ... */}
     <li className="mt-4">
       <a
-        href="https://www.facebook.com/"
+        href="https://www.facebook.com/profile.php?id=61563529753803"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center space-x-2 text-white"
       >
         <img src={facebookIcon} alt="Facebook" className="h-8 w-8" />
-        <span>Serendicus</span>
       </a>
     </li>
+    <li className="mt-4">
+      <a
+        href="https://www.instagram.com/serendicus/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-2 text-white"
+      >
+        <img src={instagramIcon} alt="Instagram" className="h-8 w-8" />
+      </a>
+    </li>
+    <li className="mt-4">
+      <a
+        href="https://www.tiktok.com/@serendicus"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-2 text-white"
+      >
+        <img src={tiktokIcon} alt="tiktok" className="h-8 w-8" />
+      </a>
+    </li>
+    <span className="font-bold  ml-3 mt-6" >Serendicus</span>
   </ul>
 </div>
     </nav>
