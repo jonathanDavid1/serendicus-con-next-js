@@ -27,7 +27,7 @@ const Home = () => {
   const images = lugares.map(lugar => lugar.image)
   
   return (
-    <section className='bg-lightBlue text-black mx-auto grid mt-10'>
+    <section className='bg-lightBlue text-black font-mystery mx-auto grid mt-10'>
       <Head>
         <title >Serendicus</title>
         <meta name="description" content="Descripción de mi aplicación" />

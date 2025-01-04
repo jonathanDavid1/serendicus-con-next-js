@@ -6,7 +6,7 @@ const sobreNosotros = () => {
     <>
       <Navbar />
       <section class="container mx-auto my-16 py-4 px-4">
-        <h2 class="text-3xl font-bold mb-4 my-14">Sobre Nosotros</h2>
+        <h2 class="text-3xl font-bold mb-4 my-14 font-mystery">Sobre Nosotros</h2>
         <p class="text-lg mb-8">En Serendicus, nos especializamos en ofrecer servicios inmobiliarios y tecnológicos de alta calidad. Nuestro objetivo es proporcionar soluciones integrales para la compra, venta y alquiler de propiedades, así como servicios tecnológicos avanzados para mejorar la experiencia de nuestros clientes.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

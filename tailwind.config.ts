@@ -14,6 +14,7 @@ export default {
         lavenderPurple: "#b983e5",
         lightBlue: "#5ccfe6"
       },
+      fontFamily: { sans: ['Reddit Sans', 'sans-serif'], mystery: ['Mystery Quest', 'cursive'], },
     },
   },
   plugins: [],

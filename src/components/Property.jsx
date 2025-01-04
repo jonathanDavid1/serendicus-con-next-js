@@ -1,6 +1,6 @@
 const Property = () => {
   return (
-    <div>Property</div>
+    <div className="font-mystery">Property</div>
   )
 }
 export default Property

@@ -13,10 +13,46 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-700 text-white p-4 fixed top-0 w-screen z-30">
+    <nav className="bg-gray-700 text-white p-4 fixed top-0 w-screen z-30 font-mystery">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="logo">
-          {urlLogo? <img src={urlLogo} alt="Logo" className="h-10 w-auto" /> : <p className="text-2xl font-bold">Mi Sitio Web</p>}
+        <div className="flex">
+          {urlLogo ? <img src={urlLogo} alt="Logo" className="h-10 w-auto" /> : <p className="text-2xl font-bold">Mi Sitio Web</p>}
+
+          <div>
+            <ul className="flex ml-20">
+            {/* ... otros enlaces ... */}
+            <li className='mt-2 mx-2 font-mystery text-yellow-200'> Siguenos</li>
+            <li className="">
+              <a
+                href="https://www.facebook.com/profile.php?id=61563529753803"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-white"
+              >
+                <img src={facebookIcon} alt="Facebook" className="h-8 mt-2" />
+              </a>
+            </li>
+            <li className="">
+              <a
+                href="https://www.instagram.com/serendicus/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-white"
+              >
+                <img src={instagramIcon} alt="Instagram" className="h-8" />
+              </a>
+            </li>
+            <li className="">
+              <a
+                href="https://www.tiktok.com/@serendicus"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-white"
+              >
+                <img src={tiktokIcon} alt="tiktok" className="h-8 mt-2" />
+              </a>
+            </li>
+          </ul></div>
         </div>
         <div className="md:flex hidden items-center">
           <ul className="flex space-x-4">

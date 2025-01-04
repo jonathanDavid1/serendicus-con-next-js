@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const PropertyDetail = ({property}) => {
   return (
-    <div className="container mx-auto px-4 pt-16 max-w-lg mb-10">
+    <div className="container mx-auto px-4 pt-16 max-w-lg mb-10 font-mystery">
       <h1 className="text-3xl font-bold text-white mb-4 mt-2">{property.title}</h1>
       <p className="text-lg text-gray-100 mb-4">Precio: ${property.price.toLocaleString('es-ES', { style: 'currency', currency: 'COP' })}</p>
       <div>

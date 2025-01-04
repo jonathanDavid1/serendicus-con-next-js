@@ -5,7 +5,7 @@ const servicios = () => {
   return (
     <>
       <Navbar />
-      <section className="m-6 pt-14">
+      <section className="m-6 pt-14 font-mystery">
         <h2 class="text-3xl font-bold mb-4 ">Servicios de Software y Publicidad</h2>
         <p class="text-lg mb-8">En Serendicus, ofrecemos una amplia gama de servicios de software y publicidad diseñados para ayudar a todo tipo de negocios a crecer y prosperar en el mercado digital.</p>
 

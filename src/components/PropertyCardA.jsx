@@ -7,7 +7,7 @@ const PropertyCardA = ({ property }) => {
 
   return (
     <>
-    <div className="max-w-xs mx-auto my-6 bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-xs mx-auto my-6 bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-mystery">
       <Link href={`/alquileres/${id}`}>
         
           <Image

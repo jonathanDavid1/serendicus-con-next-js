@@ -7,7 +7,7 @@ const Footer = () => {
   const facebookLink = 'https://www.facebook.com/tupaginadefacebook';
 
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8 font-mystery">
       <div className="container mx-auto px-4">
         <p className="text-center mb-4">Serendicus</p>
         <div className="flex justify-center space-x-4">

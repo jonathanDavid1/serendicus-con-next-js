@@ -2,7 +2,7 @@ import React from 'react';
 
 const PoliticaPrivacidad = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 font-mystery">
       <h2 className="text-2xl font-bold mb-4">Política de Privacidad de Serendipia</h2>
       <p>
         En Serendipia, valoramos tu privacidad y seguridad. Esta política detalla cómo recopilamos, utilizamos y protegemos tu información personal cuando interactúas con nuestro sitio web.

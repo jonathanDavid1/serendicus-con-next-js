@@ -1,6 +1,6 @@
 const Mapa = () => {
   return (
-    <div>Mapa</div>
+    <div className="font-mystery">Mapa</div>
   )
 }
 export default Mapa
