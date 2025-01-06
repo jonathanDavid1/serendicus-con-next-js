@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const PropertyCard = ({ property }) => {
-  const { id, title, price, images, description } = property;
+  const { id, title, price, images, image, description } = property;
 
   return (
     <>
@@ -11,11 +11,12 @@ const PropertyCard = ({ property }) => {
       <Link href={`/ventas/${id}`}>
         
           <Image
-            src={images[1]}
+            src={image}
             alt={title}
             width={300}
             height={200}
-            className="rounded-t-lg w-full object-cover"
+            style={{ width: "440px", height: "380px", objectFit: "cover" }}
+            className="rounded-t-lg w-full rounded m-0"
           />
         
       </Link>
