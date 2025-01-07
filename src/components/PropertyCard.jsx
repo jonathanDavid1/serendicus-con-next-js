@@ -7,7 +7,7 @@ const PropertyCard = ({ property }) => {
 
   return (
     <>
-    <div className="max-w-xs mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-mystery">
+    <div className="max-w-xs mx-auto bg-gray-800 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-mystery">
       <Link href={`/ventas/${id}`}>
         
           <Image
@@ -20,7 +20,7 @@ const PropertyCard = ({ property }) => {
           />
         
       </Link>
-      <div className="p-4">
+      <div className="p-4 ">
         <Link href={`/ventas/${id}`}>
           
             <h5 className="text-gray-900 font-bold text-lg tracking-tight dark:text-white">{title}</h5>

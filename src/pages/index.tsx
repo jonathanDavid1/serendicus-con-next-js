@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     // Simulate loading delay (remove this in a real use case)
     const timer = setTimeout(() => {
-        setLoading(false);
+      setLoading(false);
     }, 200); // Set loading to false after 2 seconds
 
     return () => clearTimeout(timer); // Clear the timeout if component unmounts
@@ -25,18 +25,15 @@ const Home = () => {
 
   //images for slider
   const images = lugares.map(lugar => lugar.image)
-  
+
   return (
     <section className='bg-lightBlue text-black font-mystery mx-auto grid mt-10'>
-      <Head>
-        <title >Serendicus</title>
-        <meta name="description" content="Descripción de mi aplicación" />
-      </Head>
+      <Head> <title>Descubre Corozal y California - Serendicus</title> <meta name="description" content="Explora Corozal y California, dos veredas del municipio de Los Patios, Norte de Santander, Colombia. Descubre las lujosas casas de Corozal, su clima fresco y desarrollo, y la tranquilidad y belleza verde de California, con cabañas, lagunas artificiales y diversidad de cultivos y animales." /> <meta property="og:title" content="Descubre Corozal y California - Blog de Mi Sitio Web" /> <meta property="og:description" content="Explora Corozal y California, dos veredas del municipio de Los Patios, Norte de Santander, Colombia. Descubre las lujosas casas de Corozal, su clima fresco y desarrollo, y la tranquilidad y belleza verde de California, con cabañas, lagunas artificiales y diversidad de cultivos y animales." /> <meta property="og:image" content="/path/to/home-image.jpg" /> </Head>
       <Navbar />
       <h2 className=' font-bold text-center mt-14 mb-10 text-lg'>Corozal y California lugares hermosos conectados con la naturaleza y el bienestar</h2>
-       <div >
-        <ImageSlider images= {images}/>
-        </div>
+      <div >
+        <ImageSlider images={images} />
+      </div>
       <section className='mt-10 mr-10 ml-10'>
         <p>En el corazón del municipio de Los Patios, Norte de Santander, Colombia, se encuentra la Vereda California,
           un
@@ -46,36 +43,36 @@ const Home = () => {
           riberas de las lagunas artificiales, admirando la flora y fauna local.
           <br />
           <br /></p>
-          <img src="/Lugares/Images/21.jpg" alt="laguna los patos" className='lg:w-1/2 m-auto'/>
-          <br />
-          <br />
+        <img src="/Lugares/Images/21.jpg" alt="laguna los patos" className='lg:w-1/2 m-auto' />
+        <br />
+        <br />
         <p><b>Campos de cultivo:</b> Déjate llevar por los vibrantes colores de los cultivos que se extienden por la
           vereda, donde se producen maracuyá, tomates, pimentones, melones, ají dulce, lechosa, cebollas, yuca, mangos
           y mucho más.</p><br />
 
-          <img src="Lugares/Images/103.jpg" alt="campos de cultivo" className='lg:w-1/2 m-auto' />
-          <br />
-          <br />
+        <img src="Lugares/Images/103.jpg" alt="campos de cultivo" className='lg:w-1/2 m-auto' />
+        <br />
+        <br />
         <h2 className='font-bold text-lg'>Fauna diversa:</h2>
 
         <p><b>Aves:</b>Observa la gran variedad de guacharacas, patos salvajes y otras aves que habitan cerca de las
           lagunas y en los bosques circundantes.</p>
-          <img src="Lugares/Images/86.jpg" alt="" className='lg:w-1/2 m-auto'/>
-          <br />
-          <br />
+        <img src="Lugares/Images/86.jpg" alt="" className='lg:w-1/2 m-auto' />
+        <br />
+        <br />
         <p><b>Animales de granja: </b>Conoce las gallinas ponedoras, los pollos de engorde y el ganado que se crían en
           la zona, tanto para carne como para producción de leche.
 
         </p>
-        <img src="Lugares/Images/130.jpg" alt="" className='lg:w-1/2 m-auto'/>
+        <img src="Lugares/Images/130.jpg" alt="" className='lg:w-1/2 m-auto' />
         <br />
         <br />
-      
+
         <p><b>Animales exóticos:</b> <br />Descubre la presencia de cabras camuras y cerdos, que añaden un toque único al
           paisaje de la vereda.
 
         </p>
-        <img src="Lugares/Images/98.jpg" alt="" className='lg:w-1/2 m-auto'/>
+        <img src="Lugares/Images/98.jpg" alt="" className='lg:w-1/2 m-auto' />
 
         <br />
         <br />
@@ -85,7 +82,7 @@ const Home = () => {
           ciertas temporadas, cuando los cañaguates florecen en todo su esplendor.
 
         </p>
-        <img src="Lugares/Images/100.jpg" alt="" className='lg:w-1/2 m-auto'/>
+        <img src="Lugares/Images/100.jpg" alt="" className='lg:w-1/2 m-auto' />
 
         <p><b>Chulos:</b>Observa la gran cantidad de chulos que habitan en una zona específica de la vereda,
           convirtiéndola en un punto de partida importante para estas aves que se dirigen a Cúcuta y sus alrededores.
@@ -104,8 +101,8 @@ const Home = () => {
         <img src="Lugares/Images/26.jpg" alt="" className='lg:w-1/2 m-auto' />
         <br />
         <p><b>Emprendedores:</b>Explorar oportunidades de negocio en el sector agropecuario o ecoturismo.</p>
-        
-        <img src="Lugares/Images/36.jpg" alt="" className='lg:w-1/2 m-auto'  />
+
+        <img src="Lugares/Images/36.jpg" alt="" className='lg:w-1/2 m-auto' />
 
 
         <h3>Ven a descubrir la Vereda California y déjate cautivar por su encanto natural, su riqueza cultural y su
@@ -113,12 +110,12 @@ const Home = () => {
         <h3>¡Te esperamos!</h3>
         <br />
         <br />
-        
+
 
 
       </section>
-      <Footer/>
-      <WhatsAppIcon/>
+      <Footer />
+      <WhatsAppIcon />
 
 
     </section>
