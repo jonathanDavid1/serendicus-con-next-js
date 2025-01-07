@@ -4,7 +4,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Script
-        strategy="lazyOnload" // Carga el script después de que la página esté interactiva
+        strategy="equals after interactive" // Carga el script después de que la página esté interactiva
         src={`https://www.googletagmanager.com/gtag/js?id=G-TG5263QRW7`}
         onLoad={() => {
           window.dataLayer = window.dataLayer || [];
