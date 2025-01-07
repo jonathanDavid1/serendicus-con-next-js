@@ -1,4 +1,3 @@
-// En pages/_app.js
 import { Script } from 'next/script';
 
 function MyApp({ Component, pageProps }) {
