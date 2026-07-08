@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
-    "next": "^16.2.10",
+    "next": "^15.1.7",
     "next-sitemap": "^4.2.3",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-facebook-pixel": "^1.0.4",
     "react-responsive-carousel": "^3.2.23"
   },
