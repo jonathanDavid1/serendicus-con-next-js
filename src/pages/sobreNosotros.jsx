@@ -139,7 +139,7 @@ const SobreNosotros = () => {
             Conectar a personas con su hogar ideal y brindar soluciones tecnológicas que transformen la manera en que nuestros clientes viven, trabajan y crecen.
           </p>
           <a
-            href="https://wa.me/573000000000"
+            href="https://wa.me/573105787397"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-lavenderPurple text-white font-bold font-sans px-8 py-3 rounded-full hover:bg-black hover:scale-105 active:scale-95 transition-all duration-300 shadow-md hover:shadow-lg"
@@ -153,4 +153,4 @@ const SobreNosotros = () => {
     </section>
   )
 }
-export default SobreNosotros
+export default SobreNosotros
